@@ -1,0 +1,28 @@
+{
+  "name": "blog-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+    "test" : "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyankastutara/blog-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyankastutara/blog-tdd/issues"
+  },
+  "homepage": "https://github.com/dyankastutara/blog-tdd#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.1",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  }
+}
